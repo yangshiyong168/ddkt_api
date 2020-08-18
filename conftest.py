@@ -24,3 +24,5 @@ def pytest_runtest_makereport():
             allure.attach.file(pic_path, "失败截图", attachment_type=allure.attachment_type.JPG)
 
 print("abc")
+print("你是谁")
+
