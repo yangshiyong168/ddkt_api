@@ -22,3 +22,5 @@ def pytest_runtest_makereport():
         if rep.failed:
             pic_path = adb_screen_shot()
             allure.attach.file(pic_path, "失败截图", attachment_type=allure.attachment_type.JPG)
+
+print("abc")
