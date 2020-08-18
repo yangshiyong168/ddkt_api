@@ -16,13 +16,6 @@ def pytest_runtest_makereport():
         os.system(r"adb pull sdcard/screen.png " + file_name)
         return file_name
 
-    if rep.when == 'call':
-        if rep.passed:
-            return
-        if rep.failed:
-            pic_path = adb_screen_shot()
-            allure.attach.file(pic_path, "失败截图", attachment_type=allure.attachment_type.JPG)
-
 print("abc")
 print("你是谁")
-##hhh
+
