@@ -17,4 +17,3 @@ def pytest_runtest_makereport():
         return file_name
 
 print("abc")
-print("你是谁")
