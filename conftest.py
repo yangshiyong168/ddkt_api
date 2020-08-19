@@ -18,4 +18,3 @@ def pytest_runtest_makereport():
 
 print("abc")
 print("你是谁")
-print("123567")
