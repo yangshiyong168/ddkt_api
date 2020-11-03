@@ -5,3 +5,4 @@ import pytest,allure
 #     session.results = dict()
 print("haihaixing")
 print("haha")
+print("nihao)
