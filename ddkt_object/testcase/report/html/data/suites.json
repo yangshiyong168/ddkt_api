@@ -1,0 +1,52 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_my_data",
+    "children" : [ {
+      "name" : "Test_My_Data",
+      "children" : [ {
+        "name" : "test_revise_name",
+        "uid" : "bb4bb7af8c8e2115",
+        "parentUid" : "253a50b0105030b927b59204df5eda3c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605330441640,
+          "stop" : 1605330461210,
+          "duration" : 19570
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_revise_sex",
+        "uid" : "5c5ff9a0bae5248e",
+        "parentUid" : "253a50b0105030b927b59204df5eda3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605330461259,
+          "stop" : 1605330464416,
+          "duration" : 3157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_revise_class",
+        "uid" : "3b6c3d85657351f2",
+        "parentUid" : "253a50b0105030b927b59204df5eda3c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605330464425,
+          "stop" : 1605330470068,
+          "duration" : 5643
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "253a50b0105030b927b59204df5eda3c"
+    } ],
+    "uid" : "6f597e9012716a7b40df47dab723280f"
+  } ]
+}
