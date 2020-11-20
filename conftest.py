@@ -6,3 +6,4 @@ import pytest,allure
 print("haihaixing")
 print("haha")
 print("nihao)
+print("nihao)
