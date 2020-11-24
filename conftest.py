@@ -7,3 +7,4 @@ print("haihaixing")
 print("haha")
 print("nihao)
 print("nihao)
+广西
