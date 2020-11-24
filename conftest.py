@@ -5,7 +5,7 @@ import read
 # def pytest_sessionstart(session):
 #     session.results = dict()
 print("haihaixing")
-print("广州")
+print("桂平")
 print("nihao)
 print("hhhhh")
 
