@@ -6,6 +6,7 @@ import read
 #     session.results = dict()
 print("haihaixing")
 print("桂平")
+hello
 print("nihao)
 print("hhhhh")
 

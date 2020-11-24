@@ -3,31 +3,4 @@
 git init  ##初始化本地仓
 git remote add origin +“ssh地址” github上面对应仓库的地址
 
-添加文件
-git add . 将修改的文件添加到本地仓
-git commit -m "备注的文本信息"  ##提交文件，文本信息不能为空
-git push -u origin master   ##推送到远程服务端
-
-git clone +远程仓库地址   ##复制远程仓库代码到本地，第一次新建文件夹后，右键直接拉取
-git pull origin master  ##更新远程仓库代码到本地
-
-一、将本地文件上传到远程仓库步骤
-git init
-git add .
-git commit -m "初始框架"
-git remote add origin https://github.com/417685417/91video.git  #连接远程仓库并将远程仓库取别名为origin
-git push origin master #将本地master分支的内容上传到远程仓库  
-git push origin dev #将本地dev分支的内容上传到远程仓库
-git pull origin dev  #拉取远程仓库dev分支的内容
-#上面这条命令相当于执行了以下两条命令
-git fetch
-git merge origin/dev
-
-二、将项目从远程仓库拉取到本地或为其它开源项目共享自己的一份力
-git clone https://github.com/417685417/91video.git
-git branch    #发现只有master分支
-* master
-git branch dev origin/dev  #拉取远程dev分支
-git checkout dev    #切换到dev分支
-
-#注意在push之前先进行pull操作
+是的
