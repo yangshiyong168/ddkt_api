@@ -1,9 +1,5 @@
 import time,os
 import pytest,allure
 
-print("haihaixing")
-print("桂平")
-hello
-print("nihao)
-print("nihao)
-广西桂平
+for i in range(5):
+    print(i)
