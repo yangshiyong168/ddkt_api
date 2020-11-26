@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Nov 26 17:37:17 CST 2020","Thu Nov 26 17:37:17 CST 2020","52","","test_login","Test_Api_Login","","","test_error_password_login","错误的密码无法登录"
+"passed","Thu Nov 26 17:37:17 CST 2020","Thu Nov 26 17:37:17 CST 2020","70","","test_login","Test_Api_Login","","","test_not_inpot_password_login","不输入密码无法登录"
+"passed","Thu Nov 26 17:37:17 CST 2020","Thu Nov 26 17:37:17 CST 2020","308","","test_login","Test_Api_Login","","","test_password_login","正确的密码可以正常登录"

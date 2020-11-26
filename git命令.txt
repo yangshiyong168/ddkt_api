@@ -1,0 +1,7 @@
+关联远程仓库
+初始化
+git init  ##初始化本地仓
+git remote add origin +“ssh地址” github上面对应仓库的地址
+
+是的
+test

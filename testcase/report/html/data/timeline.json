@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-PC109",
+    "children" : [ {
+      "name" : "17724-MainThread",
+      "children" : [ {
+        "name" : "test_error_password_login",
+        "uid" : "7a000105956607cb",
+        "parentUid" : "5fa9eaeed62e395296234d33f4fa9046",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606383437514,
+          "stop" : 1606383437566,
+          "duration" : 52
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_not_inpot_password_login",
+        "uid" : "b05a0302ddcc6e35",
+        "parentUid" : "5fa9eaeed62e395296234d33f4fa9046",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606383437575,
+          "stop" : 1606383437645,
+          "duration" : 70
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_password_login",
+        "uid" : "3baf4edee70f8765",
+        "parentUid" : "5fa9eaeed62e395296234d33f4fa9046",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606383437203,
+          "stop" : 1606383437511,
+          "duration" : 308
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5fa9eaeed62e395296234d33f4fa9046"
+    } ],
+    "uid" : "eaaf5680ad3e29580122c2d29129675b"
+  } ]
+}

@@ -1,0 +1,61 @@
+{
+  "ae1e1f91c1d2f27fe439e935dd9fee94" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bb4bb7af8c8e2115",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Alex' == 'Aaron'\n  - Alex\n  + Aaron",
+      "time" : {
+        "start" : 1605330441640,
+        "stop" : 1605330461210,
+        "duration" : 19570
+      }
+    } ]
+  },
+  "bc4546351528d273eba9aaf2c38b3c1f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5c5ff9a0bae5248e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605330461259,
+        "stop" : 1605330464416,
+        "duration" : 3157
+      }
+    } ]
+  },
+  "a762c73aa0db53dcf3b013fcefae6ef7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b6c3d85657351f2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '二年级' == '中班'\n  - 二年级\n  + 中班",
+      "time" : {
+        "start" : 1605330464425,
+        "stop" : 1605330470068,
+        "duration" : 5643
+      }
+    } ]
+  }
+}

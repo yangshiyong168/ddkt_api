@@ -1,0 +1,31 @@
+[ {
+  "uid" : "7a000105956607cb",
+  "name" : "test_error_password_login",
+  "time" : {
+    "start" : 1606383437514,
+    "stop" : 1606383437566,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b05a0302ddcc6e35",
+  "name" : "test_not_inpot_password_login",
+  "time" : {
+    "start" : 1606383437575,
+    "stop" : 1606383437645,
+    "duration" : 70
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "3baf4edee70f8765",
+  "name" : "test_password_login",
+  "time" : {
+    "start" : 1606383437203,
+    "stop" : 1606383437511,
+    "duration" : 308
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

@@ -1,0 +1,60 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "正确密码正常登录",
+      "children" : [ {
+        "name" : "test_password_login",
+        "uid" : "3baf4edee70f8765",
+        "parentUid" : "3f6ec1e69b5127055e458f399d094b53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606383437203,
+          "stop" : 1606383437511,
+          "duration" : 308
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3f6ec1e69b5127055e458f399d094b53"
+    }, {
+      "name" : "错误的密码不能登录",
+      "children" : [ {
+        "name" : "test_error_password_login",
+        "uid" : "7a000105956607cb",
+        "parentUid" : "33e114672441e7d1cb3cb053ecf86481",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606383437514,
+          "stop" : 1606383437566,
+          "duration" : 52
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "33e114672441e7d1cb3cb053ecf86481"
+    }, {
+      "name" : "不输入密码无法登录",
+      "children" : [ {
+        "name" : "test_not_inpot_password_login",
+        "uid" : "b05a0302ddcc6e35",
+        "parentUid" : "af0bfdb8719794308338e8f1efd48af0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606383437575,
+          "stop" : 1606383437645,
+          "duration" : 70
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "af0bfdb8719794308338e8f1efd48af0"
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
+  } ]
+}
