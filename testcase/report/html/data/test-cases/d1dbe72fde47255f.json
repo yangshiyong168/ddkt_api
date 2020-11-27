@@ -1,0 +1,111 @@
+{
+  "uid" : "d1dbe72fde47255f",
+  "name" : "test_class_api_02",
+  "fullName" : "test_yueke_shangke.Test_Courses#test_class_api_02",
+  "historyId" : "80625ae77185ddb7d191cbdbd8ee7ff8",
+  "time" : {
+    "start" : 1606442608372,
+    "stop" : 1606442608448,
+    "duration" : 76
+  },
+  "description" : "获取上课列表广告接口",
+  "descriptionHtml" : "<p>获取上课列表广告接口</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1606442607960,
+      "stop" : 1606442607970,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "获取上课列表广告接口",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3aa762f17be357d6",
+      "name" : "stdout",
+      "source" : "3aa762f17be357d6.txt",
+      "type" : "text/plain",
+      "size" : 75
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1606442609519,
+      "stop" : 1606442609519,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "约课/上课模块"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "story",
+    "value" : "获取上课列表广告接口"
+  }, {
+    "name" : "suite",
+    "value" : "test_yueke_shangke"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Courses"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-PC109"
+  }, {
+    "name" : "thread",
+    "value" : "18248-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_yueke_shangke"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d1dbe72fde47255f.json",
+  "parameterValues" : [ ]
+}

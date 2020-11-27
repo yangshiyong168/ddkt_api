@@ -1,30 +1,120 @@
 [ {
-  "uid" : "7a000105956607cb",
-  "name" : "test_error_password_login",
+  "uid" : "188e3005bfcdad9a",
+  "name" : "test_Appointment_courses",
   "time" : {
-    "start" : 1606383437514,
-    "stop" : 1606383437566,
-    "duration" : 52
+    "start" : 1606442608948,
+    "stop" : 1606442609332,
+    "duration" : 384
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "3baf4edee70f8765",
-  "name" : "test_password_login",
+  "uid" : "d1dbe72fde47255f",
+  "name" : "test_class_api_02",
   "time" : {
-    "start" : 1606383437203,
-    "stop" : 1606383437511,
-    "duration" : 308
+    "start" : 1606442608372,
+    "stop" : 1606442608448,
+    "duration" : 76
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "a7060acec7d6fc9b",
+  "name" : "test_class_api_01",
+  "time" : {
+    "start" : 1606442608291,
+    "stop" : 1606442608368,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "ec93254198a6361b",
+  "name" : "test_cancel_order",
+  "time" : {
+    "start" : 1606442609338,
+    "stop" : 1606442609515,
+    "duration" : 177
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "b05a0302ddcc6e35",
+  "uid" : "657525e6dc0df8a7",
+  "name" : "test_get_time_list",
+  "time" : {
+    "start" : 1606442608737,
+    "stop" : 1606442608943,
+    "duration" : 206
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "76f0f99bb6d0a0d",
+  "name" : "test_get_class_list_ad",
+  "time" : {
+    "start" : 1606442607971,
+    "stop" : 1606442608045,
+    "duration" : 74
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "18755400aa61c21d",
   "name" : "test_not_inpot_password_login",
   "time" : {
-    "start" : 1606383437575,
-    "stop" : 1606383437645,
-    "duration" : 70
+    "start" : 1606442607869,
+    "stop" : 1606442607954,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b3162d0cf7a4d55c",
+  "name" : "test_class_card_into_courses_list",
+  "time" : {
+    "start" : 1606442608452,
+    "stop" : 1606442608636,
+    "duration" : 184
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f7df1dcbe26ae37f",
+  "name" : "test_password_login",
+  "time" : {
+    "start" : 1606442607503,
+    "stop" : 1606442607792,
+    "duration" : 289
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "23f226aa84593da5",
+  "name" : "test_error_password_login",
+  "time" : {
+    "start" : 1606442607796,
+    "stop" : 1606442607860,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f3557100b5760ebd",
+  "name" : "test_time_page_data",
+  "time" : {
+    "start" : 1606442608648,
+    "stop" : 1606442608733,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7786ef98463b53f",
+  "name" : "test_get_class_card_list",
+  "time" : {
+    "start" : 1606442608050,
+    "stop" : 1606442608286,
+    "duration" : 236
   },
   "status" : "passed",
   "severity" : "blocker"

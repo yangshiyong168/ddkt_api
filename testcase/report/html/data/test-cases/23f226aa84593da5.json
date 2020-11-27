@@ -1,12 +1,12 @@
 {
-  "uid" : "7a000105956607cb",
+  "uid" : "23f226aa84593da5",
   "name" : "test_error_password_login",
   "fullName" : "test_login.Test_Api_Login#test_error_password_login",
   "historyId" : "1f0388c8451db73b07e22ab76053b775",
   "time" : {
-    "start" : 1606383437514,
-    "stop" : 1606383437566,
-    "duration" : 52
+    "start" : 1606442607796,
+    "stop" : 1606442607860,
+    "duration" : 64
   },
   "description" : "错误的密码无法登录",
   "descriptionHtml" : "<p>错误的密码无法登录</p>\n",
@@ -16,61 +16,61 @@
   "beforeStages" : [ {
     "name" : "_Class__pytest_setup_class",
     "time" : {
-      "start" : 1606383437202,
-      "stop" : 1606383437202,
+      "start" : 1606442607502,
+      "stop" : 1606442607502,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
     "hasContent" : false,
-    "stepsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "description" : "错误的密码无法登录",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "ad4e71bc14dce4eb",
+      "uid" : "322feef39fc766eb",
       "name" : "stdout",
-      "source" : "ad4e71bc14dce4eb.txt",
+      "source" : "322feef39fc766eb.txt",
       "type" : "text/plain",
       "size" : 81
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
     "hasContent" : true,
-    "stepsCount" : 0
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "_Class__pytest_setup_class::0",
     "time" : {
-      "start" : 1606383437646,
-      "stop" : 1606383437646,
+      "start" : 1606442607956,
+      "stop" : 1606442607956,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
     "hasContent" : false,
-    "stepsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "登录模块"
+    "name" : "story",
+    "value" : "错误的密码不能登录"
   }, {
     "name" : "severity",
     "value" : "blocker"
   }, {
-    "name" : "story",
-    "value" : "错误的密码不能登录"
+    "name" : "feature",
+    "value" : "登录模块"
   }, {
     "name" : "suite",
     "value" : "test_login"
@@ -82,7 +82,7 @@
     "value" : "DESKTOP-PC109"
   }, {
     "name" : "thread",
-    "value" : "17724-MainThread"
+    "value" : "18248-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -106,6 +106,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7a000105956607cb.json",
+  "source" : "23f226aa84593da5.json",
   "parameterValues" : [ ]
 }

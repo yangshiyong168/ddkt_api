@@ -1,6 +1,17 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
+    "uid" : "984e70abbead7ce5532afe00d880e544",
+    "name" : "约课/上课模块",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
     "uid" : "6958045a481574bf02bb11ef07a7047b",
     "name" : "登录模块",
     "statistic" : {

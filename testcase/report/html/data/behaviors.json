@@ -7,13 +7,13 @@
       "name" : "正确密码正常登录",
       "children" : [ {
         "name" : "test_password_login",
-        "uid" : "3baf4edee70f8765",
+        "uid" : "f7df1dcbe26ae37f",
         "parentUid" : "3f6ec1e69b5127055e458f399d094b53",
         "status" : "passed",
         "time" : {
-          "start" : 1606383437203,
-          "stop" : 1606383437511,
-          "duration" : 308
+          "start" : 1606442607503,
+          "stop" : 1606442607792,
+          "duration" : 289
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,13 +24,13 @@
       "name" : "错误的密码不能登录",
       "children" : [ {
         "name" : "test_error_password_login",
-        "uid" : "7a000105956607cb",
+        "uid" : "23f226aa84593da5",
         "parentUid" : "33e114672441e7d1cb3cb053ecf86481",
         "status" : "passed",
         "time" : {
-          "start" : 1606383437514,
-          "stop" : 1606383437566,
-          "duration" : 52
+          "start" : 1606442607796,
+          "stop" : 1606442607860,
+          "duration" : 64
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,13 +41,13 @@
       "name" : "不输入密码无法登录",
       "children" : [ {
         "name" : "test_not_inpot_password_login",
-        "uid" : "b05a0302ddcc6e35",
+        "uid" : "18755400aa61c21d",
         "parentUid" : "af0bfdb8719794308338e8f1efd48af0",
         "status" : "passed",
         "time" : {
-          "start" : 1606383437575,
-          "stop" : 1606383437645,
-          "duration" : 70
+          "start" : 1606442607869,
+          "stop" : 1606442607954,
+          "duration" : 85
         },
         "flaky" : false,
         "newFailed" : false,
@@ -56,5 +56,154 @@
       "uid" : "af0bfdb8719794308338e8f1efd48af0"
     } ],
     "uid" : "6958045a481574bf02bb11ef07a7047b"
+  }, {
+    "name" : "约课/上课模块",
+    "children" : [ {
+      "name" : "获取上课列表广告接口",
+      "children" : [ {
+        "name" : "test_get_class_list_ad",
+        "uid" : "76f0f99bb6d0a0d",
+        "parentUid" : "9e08ad78c5dd18583c5efc713ec75fdb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606442607971,
+          "stop" : 1606442608045,
+          "duration" : 74
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_class_api_01",
+        "uid" : "a7060acec7d6fc9b",
+        "parentUid" : "9e08ad78c5dd18583c5efc713ec75fdb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606442608291,
+          "stop" : 1606442608368,
+          "duration" : 77
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_class_api_02",
+        "uid" : "d1dbe72fde47255f",
+        "parentUid" : "9e08ad78c5dd18583c5efc713ec75fdb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606442608372,
+          "stop" : 1606442608448,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e08ad78c5dd18583c5efc713ec75fdb"
+    }, {
+      "name" : "获取上课列表卡片位数据",
+      "children" : [ {
+        "name" : "test_get_class_card_list",
+        "uid" : "7786ef98463b53f",
+        "parentUid" : "8d7c8922de07cc9eb9cdc665b2d45b7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606442608050,
+          "stop" : 1606442608286,
+          "duration" : 236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d7c8922de07cc9eb9cdc665b2d45b7a"
+    }, {
+      "name" : "上课/约课页面，课时卡片位跳转到课程列表",
+      "children" : [ {
+        "name" : "test_class_card_into_courses_list",
+        "uid" : "b3162d0cf7a4d55c",
+        "parentUid" : "a003302cddc5ca9c88993421c18f2051",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606442608452,
+          "stop" : 1606442608636,
+          "duration" : 184
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a003302cddc5ca9c88993421c18f2051"
+    }, {
+      "name" : "预约上课拉起时间页面数据",
+      "children" : [ {
+        "name" : "test_time_page_data",
+        "uid" : "f3557100b5760ebd",
+        "parentUid" : "cfb60194ea8c0edd67a608e4968fa912",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606442608648,
+          "stop" : 1606442608733,
+          "duration" : 85
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cfb60194ea8c0edd67a608e4968fa912"
+    }, {
+      "name" : "获取当前可预约的时间",
+      "children" : [ {
+        "name" : "test_get_time_list",
+        "uid" : "657525e6dc0df8a7",
+        "parentUid" : "dce5845ca11b41ed6853e02e5ccd506c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606442608737,
+          "stop" : 1606442608943,
+          "duration" : 206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dce5845ca11b41ed6853e02e5ccd506c"
+    }, {
+      "name" : "预约课程",
+      "children" : [ {
+        "name" : "test_Appointment_courses",
+        "uid" : "188e3005bfcdad9a",
+        "parentUid" : "53cb3bfb68b6402ab9861ff575331530",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606442608948,
+          "stop" : 1606442609332,
+          "duration" : 384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "53cb3bfb68b6402ab9861ff575331530"
+    }, {
+      "name" : "取消预约",
+      "children" : [ {
+        "name" : "test_cancel_order",
+        "uid" : "ec93254198a6361b",
+        "parentUid" : "d6a19689b9153ae975755dd5f0dd8dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606442609338,
+          "stop" : 1606442609515,
+          "duration" : 177
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d6a19689b9153ae975755dd5f0dd8dcf"
+    } ],
+    "uid" : "984e70abbead7ce5532afe00d880e544"
   } ]
 }

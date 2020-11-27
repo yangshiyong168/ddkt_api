@@ -1,88 +1,88 @@
 {
-  "uid" : "3baf4edee70f8765",
-  "name" : "test_password_login",
-  "fullName" : "test_login.Test_Api_Login#test_password_login",
-  "historyId" : "0a9b8a1e1ee9d0e0d053af7318026ac2",
+  "uid" : "a7060acec7d6fc9b",
+  "name" : "test_class_api_01",
+  "fullName" : "test_yueke_shangke.Test_Courses#test_class_api_01",
+  "historyId" : "bc2ce704be08ca0f4b87a251ae0eedca",
   "time" : {
-    "start" : 1606383437203,
-    "stop" : 1606383437511,
-    "duration" : 308
+    "start" : 1606442608291,
+    "stop" : 1606442608368,
+    "duration" : 77
   },
-  "description" : "正确的密码可以正常登录",
-  "descriptionHtml" : "<p>正确的密码可以正常登录</p>\n",
+  "description" : "获取上课列表广告接口",
+  "descriptionHtml" : "<p>获取上课列表广告接口</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "_Class__pytest_setup_class",
     "time" : {
-      "start" : 1606383437202,
-      "stop" : 1606383437202,
-      "duration" : 0
+      "start" : 1606442607960,
+      "stop" : 1606442607970,
+      "duration" : 10
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
     "hasContent" : false,
-    "stepsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
-    "description" : "正确的密码可以正常登录",
+    "description" : "获取上课列表广告接口",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "5f24c60d7f08e8d5",
+      "uid" : "f1d1f4d26f5768d9",
       "name" : "stdout",
-      "source" : "5f24c60d7f08e8d5.txt",
+      "source" : "f1d1f4d26f5768d9.txt",
       "type" : "text/plain",
-      "size" : 1328
+      "size" : 75
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
     "hasContent" : true,
-    "stepsCount" : 0
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "_Class__pytest_setup_class::0",
     "time" : {
-      "start" : 1606383437646,
-      "stop" : 1606383437646,
+      "start" : 1606442609519,
+      "stop" : 1606442609519,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
     "hasContent" : false,
-    "stepsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "登录模块"
-  }, {
-    "name" : "story",
-    "value" : "正确密码正常登录"
+    "value" : "约课/上课模块"
   }, {
     "name" : "severity",
-    "value" : "blocker"
+    "value" : "minor"
+  }, {
+    "name" : "story",
+    "value" : "获取上课列表广告接口"
   }, {
     "name" : "suite",
-    "value" : "test_login"
+    "value" : "test_yueke_shangke"
   }, {
     "name" : "subSuite",
-    "value" : "Test_Api_Login"
+    "value" : "Test_Courses"
   }, {
     "name" : "host",
     "value" : "DESKTOP-PC109"
   }, {
     "name" : "thread",
-    "value" : "17724-MainThread"
+    "value" : "18248-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -91,7 +91,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "test_login"
+    "value" : "test_yueke_shangke"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -101,11 +101,11 @@
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "blocker",
+    "severity" : "minor",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3baf4edee70f8765.json",
+  "source" : "a7060acec7d6fc9b.json",
   "parameterValues" : [ ]
 }

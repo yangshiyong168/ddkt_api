@@ -1,0 +1,111 @@
+{
+  "uid" : "657525e6dc0df8a7",
+  "name" : "test_get_time_list",
+  "fullName" : "test_yueke_shangke.Test_Courses#test_get_time_list",
+  "historyId" : "52105dc355f1e443a30c176d1fe26700",
+  "time" : {
+    "start" : 1606442608737,
+    "stop" : 1606442608943,
+    "duration" : 206
+  },
+  "description" : "获取当前可预约的时间",
+  "descriptionHtml" : "<p>获取当前可预约的时间</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1606442607960,
+      "stop" : 1606442607970,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "获取当前可预约的时间",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4c3c19cef8acbe0e",
+      "name" : "stdout",
+      "source" : "4c3c19cef8acbe0e.txt",
+      "type" : "text/plain",
+      "size" : 48923
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1606442609519,
+      "stop" : 1606442609519,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "约课/上课模块"
+  }, {
+    "name" : "story",
+    "value" : "获取当前可预约的时间"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "suite",
+    "value" : "test_yueke_shangke"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Courses"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-PC109"
+  }, {
+    "name" : "thread",
+    "value" : "18248-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_yueke_shangke"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "657525e6dc0df8a7.json",
+  "parameterValues" : [ ]
+}

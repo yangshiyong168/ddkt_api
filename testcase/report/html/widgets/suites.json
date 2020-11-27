@@ -1,6 +1,17 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
+    "uid" : "3667a24af4e6350a8eccd2b609df0896",
+    "name" : "test_yueke_shangke",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
     "uid" : "7db21133bf389fa43eef71e3fe0b0e68",
     "name" : "test_login",
     "statistic" : {
