@@ -45,6 +45,5 @@ class Test_Api_Login(object):
 
 if __name__ == '__main__':
     pytest.main()
-    print("oiuejfe")
 
 
